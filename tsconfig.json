@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "rootDir": ".",
+    "paths": {
+      "*": ["*", "src/*"],
+      "assets/*":["./assets/*"],
+      "api/*":["./api/*"],
+      "context/*":["./context/*"],
+      "components/*": ["./components/*"],
+      "config/*": ["./config/*"],
+      "hooks/*":["./hooks/*"],
+      "navigation/*":["./navigation/*"],
+      "screens/*": ["./screens/*"],
+    },
+
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["esnext", "dom",  "es5", "es6", "dom.iterable","ES2021.String"],
+    "esModuleInterop": true,
+    "jsx": "react-native",
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js", "setupTests.ts", "testSetup.ts"]
+}
